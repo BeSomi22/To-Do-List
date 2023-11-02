@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-list">
+        <h2>To-Do List 
+          <img src="todo-icons/icons8-test-passed-94.png">
+        </h2>
+        <div class="row">
+          <input id="task-input" type="text" placeholder="Add a new task" onkeydown="pressEnter(event);">
+          <button onclick="addTask();">Add</button>
+        </div>
+        <ul id="task-list">
+          <!-- <li class="checked">task1</li>
+            <li>task2</li>
+            <li>task3</li>
+          -->  
+        </ul>
+      </div>
+      <div>
+        <p class="info">
+          © By
+          <a  class="info-link" href="https://github.com/BeSomi22" target="_blank"> BeSomi22</a>
+        </p> 
+      </div>
+    </div>
+    <script src="interactive.js"></script>
+  </body>
+</html>
